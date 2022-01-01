@@ -243,6 +243,8 @@
           1,
           1,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -288,13 +290,9 @@
           null
         ]
       },
-      "/Users/thefluffypanda/turing/2mod/pract_ics/hogwarts/new-bloody-hogwarts/app/controllers/students_controller.rb": {
+      "/Users/thefluffypanda/turing/2mod/pract_ics/hogwarts/new-bloody-hogwarts/app/controllers/courses_controller.rb": {
         "lines": [
           1,
-          1,
-          0,
-          null,
-          null,
           1,
           1,
           null,
@@ -308,6 +306,6 @@
         ]
       }
     },
-    "timestamp": 1641001694
+    "timestamp": 1641002542
   }
 }
