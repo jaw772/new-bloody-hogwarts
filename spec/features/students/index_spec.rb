@@ -15,5 +15,12 @@ RSpec.describe 'the index page' do
       expect(page).to have_content(cedric.age)
       expect(page).to have_content(cedric.house)
     end
+
+    it "returns the average age of the students" do
+      visit '/students'
+      expect(page).to have_content("13")
+      expect("Average Age of Students").to appear_before("13")
+
+    end
   end
 end
