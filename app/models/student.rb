@@ -5,4 +5,8 @@ class Student < ApplicationRecord
   validates :age, presence: true
   validates :house, presence: true
 
+  def self.average_age
+    students = Student.all
+    students.sum(:age).to_f / students.count
+  end
 end
