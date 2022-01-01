@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'the show page' do
+RSpec.describe 'students' do
   let!(:malfoy){Student.create!(name: "Malfoy Draco", age: 12, house: "Slytherin")}
   let!(:harry){Student.create!(name: "Harry Potter", age: 12, house: "Gryffindor")}
   let!(:cedric){Student.create!(name: "Cedric Diggory", age: 15, house: "Hufflepuff")}
